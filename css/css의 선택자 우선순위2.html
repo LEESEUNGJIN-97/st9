@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css의 선택자 우선순위</title>
+<style>
+  p{background-color: #ccc; !important;
+  border: 1px solid #000; }
+
+p{background-color: #f00;}
+.section{color: #00f;
+background-color: #864;
+padding: 20px;
+}
+#section p{background-color: #486;}
+.section p{background-color: #0f0;}
+
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="section" id="section1">
+      <div class="inner">
+        <p style=""
+        >section1-item</p>
+      </div>
+    </div>
+    <div class="section" id="section2">
+      <div class="inner">
+        <p>section2-item</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
