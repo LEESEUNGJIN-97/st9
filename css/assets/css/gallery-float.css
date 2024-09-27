@@ -5,11 +5,15 @@
 /* reset */
 *{margin:0; padding: 0; 
   box-sizing: border-box;}
+  ul,ol,li{list-style: none;}
 
 .wrap{
   margin:50px;
 }
-
+.card__list{}
+.card__list ul.card__wrap{}
+.card__list ul.card__item{}
+.card__list div.card{}
 .card{
   width:300px;
   border: 1px solid #efefef;
