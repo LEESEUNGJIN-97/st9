@@ -234,7 +234,11 @@
 }
 #header .inner .top_nav_box .top_category li.on .sub_cate01, 
 #header .inner .top_nav_box .top_category .sub-category {
+<<<<<<< HEAD
  top:calc(0 - var(--main_top_banner-height));
+=======
+ top:var(--main_top_banner-height);
+>>>>>>> fa73d341e53718c37602ffb50d12e7db4fa88bed
   
 }
 #header .inner .top_nav_box .top_category .sub_cate01 li:hover > a, 
