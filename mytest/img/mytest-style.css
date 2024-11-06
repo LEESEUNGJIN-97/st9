@@ -10,6 +10,18 @@
 }
 }/*//@media*/
 
+/* 새로운 섹션 스타일 추가 */
+.section[data-ez="contents-00jct0s-1"] {		
+  background-color: #ccc;		
+}
+
+.section[data-ez="contents-00jct0s-1"] > div {		
+  max-width: 1230px;		
+  width: 92%;		
+  margin-left: auto;		
+  margin-right: auto;		
+}
+
     .mybanner{
       --banner-gap:20px;/*pc 갭*/
       --banner-m-h-gap:10px;/*모바일 수평 갭*/
@@ -372,6 +384,12 @@
   min-width: auto;
 }
 /* 상세화면의 미리보기 끝 */
+
+/* 상품 썸네일 스타일 추가 */
+.ec-base-product .prdList .thumbnail {		
+  border-radius: 10px;		
+  overflow: hidden;		
+}
 
 /* 상세화면 텍스트 버튼  시작*/
 .xans-product-detail .xans-product-option .ec-product-button li a {
